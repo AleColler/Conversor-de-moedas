@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de Moedas
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+            alt=""> <br><br>
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+    </div>
+
+    <div>
+        <form action="submit">
+            <input type="number" name="nInput" id="iInput" placeholder="Valor para converter">
+            <select name="nMoeda" id="iMoeda">
+                <option value="brl">R$</option>
+                <option value="dolar">U$</option>
+                <option value="btc">BTC</option>
+            </select>
+            <br> <br>
+
+            <div class="div-btn">
+                <input type="button" value="Converter" onclick="converter()">
+                <a href="index.html"><input type="button" value="Voltar"></a>
+            </div>
+        </form>
+    </div>
+
+    
+
+</body>
+
+</html>
